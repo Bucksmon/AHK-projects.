@@ -11,7 +11,7 @@ title := "ahk_exe GTA5.exe"
         
         send, tEnter how many screenshots you want in (00) format:
         Input, x, L2 N ; N flag ensures only numbers are captured
-            -
+
         send, ^a
         send, {BackSpace}{Enter}
         x := x + 0
